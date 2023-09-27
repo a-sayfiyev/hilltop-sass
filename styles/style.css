@@ -40,7 +40,7 @@ body {
 
 /* SITE-HEADER */
 .header-section {
-  background-color: rgb(255, 8, 8);
+  background-image: url(../assets/banner.jpg);
 }
 .header-section .site-header {
   padding-top: 13px;
@@ -54,18 +54,17 @@ body {
 }
 .header-section .site-header .site-header-container a {
   display: flex;
-  align-items: center;
-  gap: 24px;
+  align-items: flex-end;
+  gap: 30px;
   text-decoration: none;
   color: #fff;
-  font-size: 22px;
+  font-size: 30px;
 }
 .header-section .site-header .site-header-container .logo-link img {
   display: block;
 }
 .header-section .site-header .site-header-container .site-header-actions {
   display: flex;
-  align-items: center;
   /* SITENAV */
 }
 .header-section .site-header .site-header-container .site-header-actions .sitenav-list {
@@ -111,7 +110,6 @@ body {
   display: flex;
   font-size: 16px;
   font-weight: 700;
-  margin-bottom: 200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -126,15 +124,17 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: flex;
+  align-items: flex-end;
   gap: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 35px;
 }
 .header-section .main-infos-container .booking .booking-item {
   display: flex;
   align-items: flex-start;
   gap: 7px;
   flex-direction: column;
-  font-size: 16px;
-  font-weight: 700;
 }
 .header-section .main-infos-container .booking .booking-item .item-title {
   color: #fff;
@@ -144,5 +144,39 @@ body {
   gap: 39px;
   padding: 25px 20px 20px 18px;
   background-color: #fff;
+  align-items: center;
+}
+.header-section .main-infos-container .booking .booking-item .polygon {
+  gap: 50px;
+  padding: 0;
+}
+.header-section .main-infos-container .booking .booking-item .polygon p {
+  padding-left: 18px;
+}
+.header-section .main-infos-container .booking .booking-item .polygon img {
+  padding: 25px 20px 20px 15px;
+  background-color: #C4C4C4;
+}
+.header-section .main-infos-container .booking .finding {
+  padding: 21px 56px;
+  background-color: #ECA00D;
+}
+.header-section .header-info-bottom {
+  background: rgba(255, 255, 255, 0.6);
+  -webkit-backdrop-filter: blur(7.5px);
+          backdrop-filter: blur(7.5px);
+  margin-top: 240px;
+}
+.header-section .header-info-bottom .info-bottom-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 36px;
+  padding-bottom: 34px;
+}
+.header-section .header-info-bottom .info-bottom-container .info-item-wrapper {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  font-weight: 700;
   align-items: center;
 }/*# sourceMappingURL=style.css.map */
