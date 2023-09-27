@@ -111,11 +111,11 @@ body {
 
     .title {
       color: #fff;
-      font-size: 80px;
+      font-size: 100px;
     }
 
     .goal {
-      font-size: 40px;
+      font-size: 50px;
       color: #fff;
     }
 
@@ -208,4 +208,115 @@ body {
   }
   }
 
+}
+
+main {
+
+.top-deals {
+  .top-deals-container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+    h1 {
+      font-size: 36px;
+      font-weight: 700;
+      text-align: center;
+    }
+    .stopper {
+      height: 3px;
+      width: 250px;
+      background-color: #ECA00D;
+      margin-top: 19px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .stopper-long {
+      height: 1px;
+      width: 800px;
+      background-color: #E0E6E8;
+      margin-left: auto;
+        margin-right: auto;
+    }
+
+    .box-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-top: 60px;
+
+      .box {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+
+        border: 1px solid #D3C9C9;
+        background-color: #fff;
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+      .pinned {
+        padding: 5px;
+        background-color: #FFAC0B;
+      position: absolute;
+      z-index: 2;
+      }
+
+      .info-box {
+        display: flex;
+        flex-direction: column;
+        padding-left: 30px;
+        padding-top: 45px;
+        padding-bottom: 30px;
+        gap: 26px;
+
+        .box-title {
+            font-size: 20px;
+            font-weight: 700;
+          }
+
+          .about {
+            width: 350px;
+            font-size: 16px;
+              font-weight: 400;
+              line-height: 30px;
+          }
+      }
+        }
+    }
+  }
+}
+
+.tour-section {
+  background-image: url(../assets/second-banner.jpg);
+  background-repeat: no-repeat;
+
+  .tour-section-container {
+    padding-top: 300px;
+    padding-bottom: 150px;
+    display: flex;
+    gap: 50px;
+
+    .tour-section-info {
+      padding: 40px 63px 37px 45px;
+      background: rgba(255, 255, 255, 0.40);
+        backdrop-filter: blur(15px);
+        display: flex;
+        flex-direction: column;
+        gap: 26px;
+
+      .tour-title {
+        color: #FFE600;
+          font-size: 35px;
+          font-weight: 700;
+      }
+
+      .tour-info {
+        width: 450px;
+        font-size: 16px;
+          font-weight: 500;
+          color: #fff
+      }
+    }
+  }
+}
 }
